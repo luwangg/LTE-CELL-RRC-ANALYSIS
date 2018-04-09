@@ -1,0 +1,19 @@
+---- 126 Matches (19 in 7 files) ----
+P0-SL-r12.c:	if((value >= -126 && value <= 31)) {
+P0-SL-r12.c:	{ APC_CONSTRAINED,	 8,  8, -126,  31 }	/* (-126..31) */,
+SPS-ConfigUL.c:	if((value >= -126 && value <= 24)) {
+SPS-ConfigUL.c:	if((value >= -126 && value <= 24)) {
+SPS-ConfigUL.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+SPS-ConfigUL.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlCommon-NB-r13.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlCommon-NB-r13.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlCommon.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlCommon.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlCommonPUSCH-LessCell-v1430.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlCommonPUSCH-LessCell-v1430.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlCommonPUSCH-LessCell-v1430.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlCommonPUSCH-LessCell-v1430.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlCommonSCell-r10.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlCommonSCell-r10.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,
+UplinkPowerControlDedicated-v1250.c:	if((value >= -126 && value <= 24)) {
+UplinkPowerControlDedicated-v1250.c:	{ APC_CONSTRAINED,	 8,  8, -126,  24 }	/* (-126..24) */,

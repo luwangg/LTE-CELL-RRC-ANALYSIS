@@ -1,0 +1,477 @@
+[ZGB DEBUG]: (per_decoder.c:53)
+[ZGB DEBUG]: (per_decoder.c:70)
+[ZGB DEBUG]: (per_decoder.c:80)
+[ZGB DEBUG]: (per_decoder.c:86)
+[ZGB DEBUG]: Decoding BCCH-DL-SCH-Message as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member message in BCCH-DL-SCH-Message 
+[ZGB DEBUG]: Decoding SystemInformation as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member criticalExtensions in SystemInformation 
+[ZGB DEBUG]: Decoding SystemInformation-r8-IEs as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member sib-TypeAndInfo in SystemInformation-r8-IEs 
+[ZGB DEBUG]: Decoding SystemInformationBlockType2 as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Member SystemInformationBlockType2->ac-BarringInfo is optional, p=0 (1->2) 
+[ZGB DEBUG]: Decoding member radioResourceConfigCommon in SystemInformationBlockType2 
+[ZGB DEBUG]: Decoding RadioResourceConfigCommonSIB as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member rach-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding RACH-ConfigCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member preambleInfo in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding preambleInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member numberOfRA-Preambles in preambleInfo 
+[ZGB DEBUG]: Member preambleInfo->preamblesGroupAConfig is optional, p=1 (1->1) 
+[ZGB DEBUG]: Decoding member preamblesGroupAConfig in preambleInfo 
+[ZGB DEBUG]: Decoding preamblesGroupAConfig as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member sizeOfRA-PreamblesGroupA in preamblesGroupAConfig 
+[ZGB DEBUG]: Decoding member messageSizeGroupA in preamblesGroupAConfig 
+[ZGB DEBUG]: Decoding member messagePowerOffsetGroupB in preamblesGroupAConfig 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member powerRampingParameters in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding PowerRampingParameters as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member powerRampingStep in PowerRampingParameters 
+[ZGB DEBUG]: Decoding member preambleInitialReceivedTargetPower in PowerRampingParameters 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member ra-SupervisionInfo in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding ra-SupervisionInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member preambleTransMax in ra-SupervisionInfo 
+[ZGB DEBUG]: Decoding member ra-ResponseWindowSize in ra-SupervisionInfo 
+[ZGB DEBUG]: Decoding member mac-ContentionResolutionTimer in ra-SupervisionInfo 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member maxHARQ-Msg3Tx in RACH-ConfigCommon 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member bcch-Config in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding BCCH-Config as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member modificationPeriodCoeff in BCCH-Config 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member pcch-Config in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding PCCH-Config as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member defaultPagingCycle in PCCH-Config 
+[ZGB DEBUG]: Decoding member nB in PCCH-Config 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member prach-Config in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding PRACH-ConfigSIB as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member rootSequenceIndex in PRACH-ConfigSIB 
+[ZGB DEBUG]: Decoding member prach-ConfigInfo in PRACH-ConfigSIB 
+[ZGB DEBUG]: Decoding PRACH-ConfigInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member prach-ConfigIndex in PRACH-ConfigInfo 
+[ZGB DEBUG]: Decoding member highSpeedFlag in PRACH-ConfigInfo 
+[ZGB DEBUG]: Decoding member zeroCorrelationZoneConfig in PRACH-ConfigInfo 
+[ZGB DEBUG]: Decoding member prach-FreqOffset in PRACH-ConfigInfo 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member pdsch-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding PDSCH-ConfigCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member referenceSignalPower in PDSCH-ConfigCommon 
+[ZGB DEBUG]: Decoding member p-b in PDSCH-ConfigCommon 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member pusch-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding PUSCH-ConfigCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member pusch-ConfigBasic in PUSCH-ConfigCommon 
+[ZGB DEBUG]: Decoding pusch-ConfigBasic as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member n-SB in pusch-ConfigBasic 
+[ZGB DEBUG]: Decoding member hoppingMode in pusch-ConfigBasic 
+[ZGB DEBUG]: Decoding member pusch-HoppingOffset in pusch-ConfigBasic 
+[ZGB DEBUG]: Decoding member enable64QAM in pusch-ConfigBasic 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member ul-ReferenceSignalsPUSCH in PUSCH-ConfigCommon 
+[ZGB DEBUG]: Decoding UL-ReferenceSignalsPUSCH as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member groupHoppingEnabled in UL-ReferenceSignalsPUSCH 
+[ZGB DEBUG]: Decoding member groupAssignmentPUSCH in UL-ReferenceSignalsPUSCH 
+[ZGB DEBUG]: Decoding member sequenceHoppingEnabled in UL-ReferenceSignalsPUSCH 
+[ZGB DEBUG]: Decoding member cyclicShift in UL-ReferenceSignalsPUSCH 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member pucch-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding PUCCH-ConfigCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member deltaPUCCH-Shift in PUCCH-ConfigCommon 
+[ZGB DEBUG]: Decoding member nRB-CQI in PUCCH-ConfigCommon 
+[ZGB DEBUG]: Decoding member nCS-AN in PUCCH-ConfigCommon 
+[ZGB DEBUG]: Decoding member n1PUCCH-AN in PUCCH-ConfigCommon 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member soundingRS-UL-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding member uplinkPowerControlCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding UplinkPowerControlCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member p0-NominalPUSCH in UplinkPowerControlCommon 
+[ZGB DEBUG]: Decoding member alpha in UplinkPowerControlCommon 
+[ZGB DEBUG]: Decoding member p0-NominalPUCCH in UplinkPowerControlCommon 
+[ZGB DEBUG]: Decoding member deltaFList-PUCCH in UplinkPowerControlCommon 
+[ZGB DEBUG]: Decoding DeltaFList-PUCCH as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member deltaF-PUCCH-Format1 in DeltaFList-PUCCH 
+[ZGB DEBUG]: Decoding member deltaF-PUCCH-Format1b in DeltaFList-PUCCH 
+[ZGB DEBUG]: Decoding member deltaF-PUCCH-Format2 in DeltaFList-PUCCH 
+[ZGB DEBUG]: Decoding member deltaF-PUCCH-Format2a in DeltaFList-PUCCH 
+[ZGB DEBUG]: Decoding member deltaF-PUCCH-Format2b in DeltaFList-PUCCH 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member deltaPreambleMsg3 in UplinkPowerControlCommon 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member ul-CyclicPrefixLength in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member ue-TimersAndConstants in SystemInformationBlockType2 
+[ZGB DEBUG]: Decoding UE-TimersAndConstants as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member t300 in UE-TimersAndConstants 
+[ZGB DEBUG]: Decoding member t301 in UE-TimersAndConstants 
+[ZGB DEBUG]: Decoding member t310 in UE-TimersAndConstants 
+[ZGB DEBUG]: Decoding member n310 in UE-TimersAndConstants 
+[ZGB DEBUG]: Decoding member t311 in UE-TimersAndConstants 
+[ZGB DEBUG]: Decoding member n311 in UE-TimersAndConstants 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member freqInfo in SystemInformationBlockType2 
+[ZGB DEBUG]: Decoding freqInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Member freqInfo->ul-CarrierFreq is optional, p=0 (1->2) 
+[ZGB DEBUG]: Member freqInfo->ul-Bandwidth is optional, p=1 (2->2) 
+[ZGB DEBUG]: Decoding member ul-Bandwidth in freqInfo 
+[ZGB DEBUG]: Decoding member additionalSpectrumEmission in freqInfo 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Member SystemInformationBlockType2->mbsfn-SubframeConfigList is optional, p=0 (2->2) 
+[ZGB DEBUG]: Decoding member timeAlignmentTimerCommon in SystemInformationBlockType2 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding SystemInformationBlockType3 as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member cellReselectionInfoCommon in SystemInformationBlockType3 
+[ZGB DEBUG]: Decoding cellReselectionInfoCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member q-Hyst in cellReselectionInfoCommon 
+[ZGB DEBUG]: Member cellReselectionInfoCommon->speedStateReselectionPars is optional, p=0 (1->1) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member cellReselectionServingFreqInfo in SystemInformationBlockType3 
+[ZGB DEBUG]: Decoding cellReselectionServingFreqInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Member cellReselectionServingFreqInfo->s-NonIntraSearch is optional, p=1 (1->1) 
+[ZGB DEBUG]: Decoding member s-NonIntraSearch in cellReselectionServingFreqInfo 
+[ZGB DEBUG]: Decoding member threshServingLow in cellReselectionServingFreqInfo 
+[ZGB DEBUG]: Decoding member cellReselectionPriority in cellReselectionServingFreqInfo 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member intraFreqCellReselectionInfo in SystemInformationBlockType3 
+[ZGB DEBUG]: Decoding intraFreqCellReselectionInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member q-RxLevMin in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Member intraFreqCellReselectionInfo->p-Max is optional, p=0 (1->4) 
+[ZGB DEBUG]: Member intraFreqCellReselectionInfo->s-IntraSearch is optional, p=1 (2->4) 
+[ZGB DEBUG]: Decoding member s-IntraSearch in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Member intraFreqCellReselectionInfo->allowedMeasBandwidth is optional, p=0 (3->4) 
+[ZGB DEBUG]: Decoding member presenceAntennaPort1 in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Decoding member neighCellConfig in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Decoding member t-ReselectionEUTRA in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Member intraFreqCellReselectionInfo->t-ReselectionEUTRA-SF is optional, p=1 (4->4) 
+[ZGB DEBUG]: Decoding member t-ReselectionEUTRA-SF in intraFreqCellReselectionInfo 
+[ZGB DEBUG]: Decoding SpeedStateScaleFactors as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member sf-Medium in SpeedStateScaleFactors 
+[ZGB DEBUG]: Decoding member sf-High in SpeedStateScaleFactors 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: Extensions 2 present in SystemInformationBlockType3 
+[ZGB DEBUG]: Read in extensions bitmap for SystemInformationBlockType3 of 2 bits (40..) 
+[ZGB DEBUG]: Getting overflow extensions 
+[ZGB DEBUG]: Getting overflow extensions 
+[ZGB DEBUG]: pd = 0xa 0x9 0xdd 0x2a 0x49 0x0 0x0 0x0 0x0 
+Getting open type <unknown extension> encoded in 4 bytes
+[ZGB DEBUG]: spd.buffer = 0xee 0x95 0x24 0x80 
+Padding 8 in open type
+Too large padding 8 in open type
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Member SystemInformation-r8-IEs->nonCriticalExtension is optional, p=0 (1->1) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: uper_decoder 0 
+[ZGB DEBUG]: (per_decoder.c:100)
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformation>
+                <criticalExtensions>
+                    <systemInformation-r8>
+                        <sib-TypeAndInfo>
+                                <sib2>
+                                    <radioResourceConfigCommon>
+                                        <rach-ConfigCommon>
+                                            <preambleInfo>
+                                                <numberOfRA-Preambles><n52/></numberOfRA-Preambles>
+                                                <preamblesGroupAConfig>
+                                                    <sizeOfRA-PreamblesGroupA><n28/></sizeOfRA-PreamblesGroupA>
+                                                    <messageSizeGroupA><b56/></messageSizeGroupA>
+                                                    <messagePowerOffsetGroupB><dB10/></messagePowerOffsetGroupB>
+                                                </preamblesGroupAConfig>
+                                            </preambleInfo>
+                                            <powerRampingParameters>
+                                                <powerRampingStep><dB2/></powerRampingStep>
+                                                <preambleInitialReceivedTargetPower><dBm-104/></preambleInitialReceivedTargetPower>
+                                            </powerRampingParameters>
+                                            <ra-SupervisionInfo>
+                                                <preambleTransMax><n10/></preambleTransMax>
+                                                <ra-ResponseWindowSize><sf10/></ra-ResponseWindowSize>
+                                                <mac-ContentionResolutionTimer><sf64/></mac-ContentionResolutionTimer>
+                                            </ra-SupervisionInfo>
+                                            <maxHARQ-Msg3Tx>5</maxHARQ-Msg3Tx>
+                                        </rach-ConfigCommon>
+                                        <bcch-Config>
+                                            <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+                                        </bcch-Config>
+                                        <pcch-Config>
+                                            <defaultPagingCycle><rf128/></defaultPagingCycle>
+                                            <nB><oneT/></nB>
+                                        </pcch-Config>
+                                        <prach-Config>
+                                            <rootSequenceIndex>157</rootSequenceIndex>
+                                            <prach-ConfigInfo>
+                                                <prach-ConfigIndex>6</prach-ConfigIndex>
+                                                <highSpeedFlag><false/></highSpeedFlag>
+                                                <zeroCorrelationZoneConfig>11</zeroCorrelationZoneConfig>
+                                                <prach-FreqOffset>6</prach-FreqOffset>
+                                            </prach-ConfigInfo>
+                                        </prach-Config>
+                                        <pdsch-ConfigCommon>
+                                            <referenceSignalPower>18</referenceSignalPower>
+                                            <p-b>1</p-b>
+                                        </pdsch-ConfigCommon>
+                                        <pusch-ConfigCommon>
+                                            <pusch-ConfigBasic>
+                                                <n-SB>4</n-SB>
+                                                <hoppingMode><interSubFrame/></hoppingMode>
+                                                <pusch-HoppingOffset>0</pusch-HoppingOffset>
+                                                <enable64QAM><true/></enable64QAM>
+                                            </pusch-ConfigBasic>
+                                            <ul-ReferenceSignalsPUSCH>
+                                                <groupHoppingEnabled><false/></groupHoppingEnabled>
+                                                <groupAssignmentPUSCH>0</groupAssignmentPUSCH>
+                                                <sequenceHoppingEnabled><false/></sequenceHoppingEnabled>
+                                                <cyclicShift>0</cyclicShift>
+                                            </ul-ReferenceSignalsPUSCH>
+                                        </pusch-ConfigCommon>
+                                        <pucch-ConfigCommon>
+                                            <deltaPUCCH-Shift><ds1/></deltaPUCCH-Shift>
+                                            <nRB-CQI>1</nRB-CQI>
+                                            <nCS-AN>0</nCS-AN>
+                                            <n1PUCCH-AN>18</n1PUCCH-AN>
+                                        </pucch-ConfigCommon>
+                                        <soundingRS-UL-ConfigCommon>
+                                            <release></release>
+                                        </soundingRS-UL-ConfigCommon>
+                                        <uplinkPowerControlCommon>
+                                            <p0-NominalPUSCH>-67</p0-NominalPUSCH>
+                                            <alpha><al07/></alpha>
+                                            <p0-NominalPUCCH>-115</p0-NominalPUCCH>
+                                            <deltaFList-PUCCH>
+                                                <deltaF-PUCCH-Format1><deltaF0/></deltaF-PUCCH-Format1>
+                                                <deltaF-PUCCH-Format1b><deltaF3/></deltaF-PUCCH-Format1b>
+                                                <deltaF-PUCCH-Format2><deltaF1/></deltaF-PUCCH-Format2>
+                                                <deltaF-PUCCH-Format2a><deltaF2/></deltaF-PUCCH-Format2a>
+                                                <deltaF-PUCCH-Format2b><deltaF2/></deltaF-PUCCH-Format2b>
+                                            </deltaFList-PUCCH>
+                                            <deltaPreambleMsg3>4</deltaPreambleMsg3>
+                                        </uplinkPowerControlCommon>
+                                        <ul-CyclicPrefixLength><len1/></ul-CyclicPrefixLength>
+                                    </radioResourceConfigCommon>
+                                    <ue-TimersAndConstants>
+                                        <t300><ms1000/></t300>
+                                        <t301><ms200/></t301>
+                                        <t310><ms1000/></t310>
+                                        <n310><n10/></n310>
+                                        <t311><ms10000/></t311>
+                                        <n311><n1/></n311>
+                                    </ue-TimersAndConstants>
+                                    <freqInfo>
+                                        <ul-Bandwidth><n100/></ul-Bandwidth>
+                                        <additionalSpectrumEmission>1</additionalSpectrumEmission>
+                                    </freqInfo>
+                                    <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+                                </sib2>
+                            
+                                <sib3>
+                                    <cellReselectionInfoCommon>
+                                        <q-Hyst><dB4/></q-Hyst>
+                                    </cellReselectionInfoCommon>
+                                    <cellReselectionServingFreqInfo>
+                                        <s-NonIntraSearch>9</s-NonIntraSearch>
+                                        <threshServingLow>7</threshServingLow>
+                                        <cellReselectionPriority>7</cellReselectionPriority>
+                                    </cellReselectionServingFreqInfo>
+                                    <intraFreqCellReselectionInfo>
+                                        <q-RxLevMin>-64</q-RxLevMin>
+                                        <s-IntraSearch>29</s-IntraSearch>
+                                        <presenceAntennaPort1><false/></presenceAntennaPort1>
+                                        <neighCellConfig>
+                                            01
+                                        </neighCellConfig>
+                                        <t-ReselectionEUTRA>1</t-ReselectionEUTRA>
+                                        <t-ReselectionEUTRA-SF>
+                                            <sf-Medium><lDot0/></sf-Medium>
+                                            <sf-High><oDot75/></sf-High>
+                                        </t-ReselectionEUTRA-SF>
+                                    </intraFreqCellReselectionInfo>
+                                </sib3>
+                            
+                        </sib-TypeAndInfo>
+                    </systemInformation-r8>
+                </criticalExtensions>
+            </systemInformation>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
+[ZGB DEBUG]: (per_decoder.c:53)
+[ZGB DEBUG]: (per_decoder.c:70)
+[ZGB DEBUG]: (per_decoder.c:80)
+[ZGB DEBUG]: (per_decoder.c:86)
+[ZGB DEBUG]: Decoding BCCH-DL-SCH-Message as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member message in BCCH-DL-SCH-Message 
+[ZGB DEBUG]: Decoding SystemInformation as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member criticalExtensions in SystemInformation 
+[ZGB DEBUG]: Decoding SystemInformation-r8-IEs as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member sib-TypeAndInfo in SystemInformation-r8-IEs 
+[ZGB DEBUG]: Decoding SystemInformationBlockType2 as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Member SystemInformationBlockType2->ac-BarringInfo is optional, p=0 (1->2) 
+[ZGB DEBUG]: Decoding member radioResourceConfigCommon in SystemInformationBlockType2 
+[ZGB DEBUG]: Decoding RadioResourceConfigCommonSIB as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member rach-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Decoding RACH-ConfigCommon as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member preambleInfo in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding preambleInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member numberOfRA-Preambles in preambleInfo 
+[ZGB DEBUG]: Member preambleInfo->preamblesGroupAConfig is optional, p=0 (1->1) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member powerRampingParameters in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding PowerRampingParameters as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member powerRampingStep in PowerRampingParameters 
+[ZGB DEBUG]: Decoding member preambleInitialReceivedTargetPower in PowerRampingParameters 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1138)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1230)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1254)
+[ZGB DEBUG]: Decoding member ra-SupervisionInfo in RACH-ConfigCommon 
+[ZGB DEBUG]: Decoding ra-SupervisionInfo as SEQUENCE (UPER) 
+[ZGB DEBUG]: (constr_SEQUENCE.c:1062)
+[ZGB DEBUG]: (constr_SEQUENCE.c:1081)
+[ZGB DEBUG]: Decoding member preambleTransMax in ra-SupervisionInfo 
+[ZGB DEBUG]: Failed decode preambleTransMax in ra-SupervisionInfo 
+[ZGB DEBUG]: Failed decode ra-SupervisionInfo in RACH-ConfigCommon 
+[ZGB DEBUG]: Failed decode rach-ConfigCommon in RadioResourceConfigCommonSIB 
+[ZGB DEBUG]: Failed decode radioResourceConfigCommon in SystemInformationBlockType2 
+[ZGB DEBUG]: Failed decode sib-TypeAndInfo in SystemInformation-r8-IEs 
+[ZGB DEBUG]: Failed decode criticalExtensions in SystemInformation 
+[ZGB DEBUG]: Failed decode message in BCCH-DL-SCH-Message 
+[ZGB DEBUG]: uper_decoder 1 
+[ZGB DEBUG]: (per_decoder.c:100)
